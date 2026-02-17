@@ -13,10 +13,10 @@ public class OOPSBannerApp {
             String.join("   ", " ***** ", " ***** ", " ***** ", " ***** "),
             String.join("   ", "*     *", "*     *", "*     *", "*      "),
             String.join("   ", "*     *", "*     *", "*     *", "*      "),
-            String.join("   ", "*     *", " ***** ", " ***** ", " ***** "),
-            String.join("   ", "*     *", "*      ", "*      ", "      *"),
-            String.join("   ", "*     *", "*      ", "*      ", "      *"),
-            String.join("   ", " ***** ", "*      ", "*      ", " ***** ")
+            String.join("   ", "*     *", "*     *", " ***** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*      ", "      *"),
+            String.join("   ", "*     *", "*     *", "*      ", "      *"),
+            String.join("   ", " ***** ", " ***** ", "*      ", " ***** ")
         };
 
         for (String line : bannerLines) {
