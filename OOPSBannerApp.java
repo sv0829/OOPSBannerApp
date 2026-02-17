@@ -1,54 +1,26 @@
+/**
+ * OOPS Banner App
+ * UC4 - Print OOPS using Array & Loop
+ *
+ * @author Shyam
+ * @version 1.0
+ */
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        System.out.println(String.join("   ",
-                " ***** ",
-                " ***** ",
-                " ***** ",
-                " ***** "
-        ));
+        String[] bannerLines = {
+            String.join("   ", " ***** ", " ***** ", " ***** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*     *", "*      "),
+            String.join("   ", "*     *", "*     *", "*     *", "*      "),
+            String.join("   ", "*     *", " ***** ", " ***** ", " ***** "),
+            String.join("   ", "*     *", "*      ", "*      ", "      *"),
+            String.join("   ", "*     *", "*      ", "*      ", "      *"),
+            String.join("   ", " ***** ", "*      ", "*      ", " ***** ")
+        };
 
-        System.out.println(String.join("   ",
-                "*     *",
-                "*     *",
-                "*     *",
-                "*      "
-        ));
-
-        System.out.println(String.join("   ",
-                "*     *",
-                "*     *",
-                "*     *",
-                "*      "
-        ));
-
-        System.out.println(String.join("   ",
-                "*     *",
-                "*     *",
-                " ***** ",
-                " ***** "
-        ));
-
-        System.out.println(String.join("   ",
-                "*     *",
-                "*     *",
-                "*      ",
-                "      *"
-        ));
-
-        System.out.println(String.join("   ",
-                "*     *",
-                "*     *",
-                "*      ",
-                "      *"
-        ));
-
-        System.out.println(String.join("   ",
-                " ***** ",
-                " ***** ",
-                "*      ",
-                " ***** "
-        ));
+        for (String line : bannerLines) {
+            System.out.println(line);
+        }
     }
 }
